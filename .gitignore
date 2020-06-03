@@ -1,3 +1,4 @@
+.metals/
 target/
 boot/
 lib_managed/
