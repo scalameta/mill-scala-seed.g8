@@ -18,3 +18,5 @@ To create a new project just run:
 ```sh
 g8 scalameta/mill-scala-seed.g8
 ```
+
+or use the `New Scala project` command in [Metals](hhtps://scalameta.org/metals)
