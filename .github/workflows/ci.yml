@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  pull_request:
 
 jobs:
   g8Test:
@@ -11,5 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v2
+        with:
+          java-version: 11
+          distribution: 'temurin'
       - name: g8Test
         run: sbt g8Test
